@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Formulaire</title>
+  <link rel="icon" type="image/png" href="../img/logo.png" />
+  <link rel="stylesheet" href="../css/form.css">
+  <link rel="stylesheet" href="../css/nav.css">
+</head>
+    <body>
+        <nav>
+
+            <a href="../index.html"><img id="logo" src="../img/logo.png" alt="Logo"/></a>
+            <ul>
+                <li class="text"><a href="../index.html">Accueil</a></li>
+                <li class="text"><a href="./nord.html">Spots Nord</a></li>
+                <li class="text"><a href="./sud.html">Spots Sud</a></li>
+                <li class="text"><a href="./ouest.html">Spots Ouest</a></li>
+                <li class="text"><a href="./form.html">Formulaire</a></li>
+                
+            </ul>
+
+            
+        </nav>
+    </br>
+        <div class="container">
+            <form method="post" action="traitement.php" required>
+            <div class="row">
+                <h4>Identification</h4>
+                <div class="input-group input-group-icon">
+                <input type="nom" placeholder="Nom"/>
+                <div class="input-icon"><i class="fa fa-user"></i></div>
+				
+				<h4>Date</h4>
+                <div class="input-group">
+                    <div class="col-third">
+                    <input type="text" placeholder="DD"/>
+                    </div>
+                    <div class="col-third">
+                    <input type="text" placeholder="MM"/>
+                    </div>
+                    <div class="col-third">
+                    <input type="text" placeholder="YYYY"/>
+                    </div>
+                </div>
+				
+				<h4>Heure de début d'activité</h4>
+                <div class="input-group">
+                    <div class="col-third">
+                    <input type="time" placeholder="Heure"
+					min="00:01" max="23:59" required> <br><br>
+                    </div>
+              
+                </div>
+				
+				<h4>Heure de fin d'activité</h4>
+                <div class="input-group">
+                    <div class="col-third">
+                    <input type="time" placeholder="Heure"
+					min="00:01" max="23:59" required> <br><br>
+                    </div>
+              
+                </div>
+				
+			
+                <h4>Région fréquenté</h4>
+                 <div class="input-group">
+                    <label for="regionn" ></label>
+							<select name="region" id="region">
+								<option value=""></option>
+								<option value="Nord">Nord</option>
+								<option value="Sud">Sud</option>
+								<option value="Ouest">Ouest</option>
+							</select><br><br>
+                </div>
+            
+				
+                <div class="input-group input-group-icon">
+                    <input type="Ville :" placeholder="Ville"/>
+                    <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                </div>
+                
+         
+				
+                <div class="input-group input-group-icon">
+                    <input type="Nom du Spot" placeholder="Nom du Spot"/>
+                    <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-half">
+                <h4>Fréquentation des spots</h4>
+				
+                <div class="input-group">
+                    <label for="baigneur"><h5>Nombre de baigneurs rencontrés : </h5></label>
+							<select name="baigneur" id="baigneur">
+								<option value=""></option>
+								<option value="0-10">0-10</option>
+								<option value="11-20">11-20</option>
+								<option value="+20">+20</option>
+							</select><br><br>
+                </div>
+                </div>
+                
+            </div>
+			<div class="row">
+			<div class="col-half">
+                
+					<div class="input-group">
+					  <label for="Bateau"><h5>Nombre de bateaux rencontrés : </h5> </label>
+								<select name="bateau" id="bateau">
+									<option value=""></option>
+									<option value="0-10">0-10</option>
+									<option value="11-20">11-20</option>
+									<option value="+20">+20</option>
+								</select><br><br>
+					</div>
+					</div>
+                </div>
+				
+			<div class="row">
+			<div class="col-half">
+                
+					<div class="input-group">
+					  <label for="pracAquat"><h5>Nombre de pratiquants de sports aquatiques rencontrés : </h5></label>
+							<select name="pracAquat" id="pracAquat">
+								<option value=""></option>
+								<option value="0-10">0-10</option>
+								<option value="11-20">11-20</option>
+								<option value="+20">+20</option>
+							</select><br><br>
+					</div>
+					</div>
+                </div>		
+            <div class="row">
+                <h4>Le surfeur</h4>
+				<h5>Produit utilisé dans la journée : </h5>
+				<div class="row">
+					<div class="input-group">
+					<input type="checkbox" id="Crème solaire"/>
+					<label for="Crème solaire">Crème solaire</label>
+				    <input type="checkbox" id="Parfum / Déodorant"/>
+					<label for="Parfum / Déodorant">Parfum / Déodorant</label>
+					<input type="checkbox" id="Crème hydratante"/>
+					<label for="Crème hydratante">Crème hydratante</label>
+					<input type="checkbox" id="Maquillage"/>
+					<label for="Maquillage">Maquillage</label>
+					<input type="checkbox" id="Essence"/>
+					<label for="Essence">Essence</label>
+					<input type="checkbox" id="Cigarette"/>
+					<label for="Cigarette">Cigarette</label>
+					<input type="checkbox" id="Engrais"/>
+					<label for="Engrais">Engrais</label>
+					<input type="checkbox" id="Pesticides"/>
+					<label for="Pesticides">Pesticides</label>
+					<input type="checkbox" id="Peintures"/>
+					<label for="Peintures">Peintures</label>
+                </div>
+				</div>
+				
+				
+                
+                
+            </div>
+			
+			<div class="input-group input-group-icon">
+                <input type="text" placeholder="Autres"/>
+                <div class="input-icon"><i class="fa fa-autre"></i></div>
+                </div>
+				
+				
+                <div class="input-valider">
+                <button id="validerr"><input type="submit" value="Valider" style="left:0; right:0; background-color: rgb(0,115, 190); border: 1px solid  rgb(2, 105, 173); color: white;  padding: 12px 217px;  cursor: pointer;  width: 100%; 
+  display:block" /></button>
+                
+                </div>
+				<div id="perso"><a href="../img/blue.gif" target="_blank">  <img src="../img/perso.png" alt="" style="height:15px; width:auto" ></a></div>
+				<p>01001111 01110101 01100101 01110011 01110100</p>
+            
+            </form>
+        </div>
+    </body>
+
+
+</html>

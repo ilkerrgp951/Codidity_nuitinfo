@@ -1,0 +1,243 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #b9b9b9;
+  background-color: #e3e3e3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+#entete{
+    height : 20em;
+    margin : 2% 2% 2% 2%;
+    display: flex;
+    border-radius: 1px;
+    border: rgb(42,42,46) solid;}
+
+.plage{
+    width: 25%;
+}
+
+.plage.selection1{
+    background-image: url("../img/plgCalais.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection2{
+    background-image: url("../img/plgBerk.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection3{
+    background-image: url("../img/plgDunk.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection4{
+    background-image: url("../img/plgW.png");
+    background-size: cover;
+
+
+}
+
+.plage.selection1ouest{
+    background-image: url("../img/biscarrosse.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection2ouest{
+    background-image: url("../img/hossegor.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection3ouest{
+    background-image: url("../img/biarritz.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection4ouest{
+    background-image: url("../img/caracan.png");
+    background-size: cover;
+
+
+}
+
+.plage.selection1sud{
+    background-image: url("../img/pavalas.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection2sud{
+    background-image: url("../img/villefranche.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection3sud{
+    background-image: url("../img/canet.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection4sud{
+    background-image: url("../img/marseille.png");
+    background-size: cover;
+
+
+}
+
+#selection1{
+    float : left;
+    margin : 0;
+    border : solid black 0.1em;
+    padding : 0 0 0 0;
+}
+
+#selection2{
+    float : left;
+    margin : 0;
+    border : solid black 0.1em;
+    padding : 0 0 0 0;
+}
+
+#selection3{
+    float : left;
+    margin : 0;
+    border : solid black 0.1em;
+    padding : 0 0 0 0;
+}
+
+#selection4{
+    float : left;
+    margin : 0;
+    border : solid black 0.1em;
+    padding : 0 0 0 0;
+}
+#selection5{
+    float : left;
+    margin : 0;
+    border : solid black 0.1em;
+    padding : 0 0 0 0;
+}
+
+#selection1 p{
+color: black; 
+ font-style : arial;
+
+}
+#selection2 p{
+color: black; 
+ font-style : arial;
+
+}
+#selection3 p{
+color: black; 
+ font-style : arial;
+
+}
+
+#selection4 p{
+color: black; 
+ font-style : arial;
+
+}
+#selection5 p{
+color: black; 
+ font-style : arial;
+
+}
+#entete h3 {
+color :black;
+font-style : roboto;
+font-size : 40px;
+
+}
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+#selection1 img {
+height : 12rem;
+width : auto;
+}
+#selection2 img {
+height : 12rem;
+width : auto;
+
+}
+#selection3 img {
+height : 12rem;
+width : auto;
+
+}
+#selection4 img {
+height : 12rem;
+width : auto;
+}
+#selection5 img {
+height : 12rem;
+width : 16rem;
+}
+#texte p, h5{
+color :black;
+
+}
+#tableau img {
+height :auto;
+width : 550px;
+padding : 2 0 2 0;
+margin :2 0 2 0;
+}
+
+#map h6 {
+color :black; 
+}
+#tableau h6 {
+color :black; 
+}
+
+#meteo p {
+color :black;
+}
+
+#res a{
+	color: #bdbdbd;
+}
